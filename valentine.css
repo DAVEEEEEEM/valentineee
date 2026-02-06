@@ -3,7 +3,7 @@ body {
   height: 100vh;
   overflow: hidden;
   background: linear-gradient(135deg, #ff9a9e, #fad0c4);
-  font-family: 'Comic Sans MS', cursive, sans-serif;
+  font-family: Arial, sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -101,3 +101,4 @@ button:hover {
   pointer-events: auto;
   z-index: 1000;
 }
+
