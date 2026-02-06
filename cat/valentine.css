@@ -1,0 +1,39 @@
+.card {
+  position: absolute;
+  top: 5%; /* moved slightly higher */
+  left: 50%;
+  transform: translateX(-50%);
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  z-index: 3; /* higher z-index so it's above NO button */
+}
+
+.cat-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  background: transparent; /* remove white block so image is fully visible */
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+  padding: 0; /* remove extra padding */
+  z-index: 1; /* below card */
+}
+
+.cat-container img {
+  width: 100%;
+  border-radius: 14px;
+  display: block;
+}
+
+.caption {
+  margin-top: 8px;
+  font-size: 18px;
+  color: #555;
+  min-height: 40px;
+}
